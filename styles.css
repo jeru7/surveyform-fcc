@@ -3,14 +3,10 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Courier New", Courier, monospace;
   background-color: #72a0c1;
-  color: whitesmoke;
+  color: #f3f3f3;
   font-size: 18px;
-}
-
-.header {
-  text-align: center;
 }
 
 .form {
@@ -34,4 +30,69 @@ div {
 
 label {
   display: flex;
+  align-items: center;
+  margin: 0 auto 15px 8px;
+}
+
+header {
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+header > h1 {
+  display: block;
+  font-size: 32px;
+}
+
+header > p {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.main-container {
+  margin: 60px auto 0 auto;
+}
+
+@media (min-width: 570px) {
+  .main-container {
+    max-width: 650px;
+  }
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 35px;
+  padding: 5px 8px;
+  border-radius: 8px;
+  border: none;
+}
+
+input {
+  margin: 0;
+}
+
+.input-textarea {
+  min-height: 150px;
+  width: 100%;
+  padding: 12px;
+}
+
+.submit-button {
+  width: 100%;
+  height: 40px;
+  background-color: #37af65;
+  border: none;
+  border-radius: 8px;
+  color: white;
+}
+
+.input-checkbox {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
 }

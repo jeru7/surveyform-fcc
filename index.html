@@ -9,12 +9,13 @@
   </head>
 
   <body>
-    <header>
-      <h1>freeCodeCamp Survey Form</h1>
-      <p>Thank you for taking the time to help us improve the platform</p>
-    </header>
-
     <div class="main-container">
+      <header>
+        <h1 id="title" class="text-center">freeCodeCamp Survey Form</h1>
+        <p id="description" class="description text-center">
+          Thank you for taking the time to help us improve the platform
+        </p>
+      </header>
       <div class="form">
         <form id="survey-form">
           <div class="form-content">
@@ -24,6 +25,7 @@
               type="text"
               required
               placeholder="Enter your name"
+              class="form-control"
             />
           </div>
 
@@ -34,6 +36,7 @@
               type="email"
               required
               placeholder="Enter your email"
+              class="form-control"
             />
           </div>
 
@@ -44,6 +47,7 @@
               type="number"
               required
               placeholder="Enter your age"
+              class="form-control"
               min="18"
               max="60"
             />
@@ -53,7 +57,7 @@
             <label id="role-label" for="dropdown"
               >Which option best describes your current role?</label
             >
-            <select class="form-content" id="dropdown">
+            <select id="dropdown" class="form-control">
               <option value="disabled">Select current role</option>
               <option value="student">Student</option>
               <option value="job">Full time job</option>
@@ -81,7 +85,7 @@
 
             <div class="form-content">
               <p>What is your favorite feature of freeCodeCamp?</p>
-              <select class="form-content" id="feature" required>
+              <select id="feature" required class="form-control">
                 <option value="disabled">Select an option</option>
                 <option value="challenges">Challenges</option>
                 <option value="project">Projects</option>
@@ -103,7 +107,8 @@
                   value="frontend"
                   type="checkbox"
                   class="input-checkbox"
-                />Front-end Projects
+                />
+                Front-end Projects
               </label>
 
               <label>
@@ -129,6 +134,7 @@
                   name="answer"
                   value="challenges"
                   type="checkbox"
+                  class="input-checkbox"
                 />Challenges
               </label>
 
@@ -197,7 +203,7 @@
             </div>
 
             <div class="form-content">
-              <p>Any comments or suggestions?</p>
+              <p class="label-comment">Any comments or suggestions?</p>
               <textarea
                 id="comments"
                 class="input-textarea"

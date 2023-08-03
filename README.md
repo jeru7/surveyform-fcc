@@ -1,4 +1,4 @@
-# SurveyForm - This is just my project on freeCodeCamp.
+# SurveyForm - This is my project on freeCodeCamp.
 
 ## [Visit site](https://jeru7.github.io/surveyform/)
 

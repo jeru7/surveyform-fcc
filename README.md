@@ -14,5 +14,5 @@ This is the first version of the survey form.
 I'm continuously working on improving this assignment along with my progress of becoming a full-stack developer.
 
 ## Tech Stack
--HTML 
--CSS
+* HTML
+* CSS

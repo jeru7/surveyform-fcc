@@ -7,7 +7,7 @@ This is my submission for the freeCodeCamp SurveyForm's assignment.
 This is the live version of the survey form: [Visit site](https://jeru7.github.io/surveyform/)
 
 ## Preview
-This is the first version of the survery form.
+This is the first version of the survey form.
 ![Screenshot](surveyform.png)
 
 ## Plans 

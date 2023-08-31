@@ -3,7 +3,7 @@
 ## Description
 This is my submission for the freeCodeCamp's survey form assignment.
 
-## Site
+## Live site
 This is the live version of the survey form: [Visit site](https://jeru7.github.io/surveyform/)
 
 ## Preview
